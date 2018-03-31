@@ -1,0 +1,32 @@
+{
+  "name": "hyperapp-hash-router",
+  "description": "@hyperapp/router compatible router library based on location.hash",
+  "version": "0.0.0",
+  "author": "Yuku TAKAHASHI <taka84u9@gmail.com>",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src/*.js"
+  ],
+  "scripts": {
+    "build": "(rm -fr dist || true) && rollup -c",
+    "format": "prettier --no-semi --write src/*.js",
+    "lint": "prettier --no-semi -l src/*.js",
+    "prepublish": "run-s build"
+  },
+  "dependencies": {
+    "@hyperapp/router": "^0.5.1"
+  },
+  "devDependencies": {
+    "hyperapp": "^1.2.5",
+    "npm-run-all": "^4.1.2",
+    "parcel-bundler": "^1.7.0",
+    "prettier": "^1.11.1",
+    "rollup": "^0.57.1",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-uglify": "^3.0.0"
+  }
+}
