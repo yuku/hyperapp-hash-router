@@ -11,18 +11,27 @@
     "src/*.js"
   ],
   "scripts": {
-    "build": "(rm -fr dist || true) && rollup -c",
-    "format": "prettier --no-semi --write src/*.js",
-    "lint": "prettier --no-semi -l src/*.js",
-    "prepublish": "run-s build"
+    "build": "run-p build:*",
+    "build:docs": "(rm -fr docs || true) && ./scripts/generate-readme.js && parcel build src/docs/index.html -d docs --public-url /hyperapp-hash-router",
+    "build:dist": "(rm -fr dist || true) && rollup -c",
+    "format": "prettier --no-semi --write 'src/**/*.js'",
+    "lint": "prettier --no-semi -l 'src/**/*.js'",
+    "prepublish": "run-s build",
+    "start": "./scripts/generate-readme.js && parcel src/docs/index.html"
   },
   "dependencies": {
     "@hyperapp/router": "^0.5.1"
   },
   "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "bulma": "^0.6.2",
+    "classnames": "^2.2.5",
     "hyperapp": "^1.2.5",
+    "marked": "^0.3.19",
+    "node-sass": "^4.8.3",
     "npm-run-all": "^4.1.2",
     "parcel-bundler": "^1.7.0",
+    "parcel-plugin-markdown": "^0.2.1",
     "prettier": "^1.11.1",
     "rollup": "^0.57.1",
     "rollup-plugin-commonjs": "^9.1.0",

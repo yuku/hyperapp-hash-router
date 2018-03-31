@@ -2,6 +2,8 @@
 
 [@hyperapp/router] compatible router library based on `location.hash`.
 
+[Demo](https://yuku-t.com/hyperapp-hash-router/#/demo)
+
 ## Installation
 
 If your project is using npm, you can install [hyperapp-hash-router] package by npm command:

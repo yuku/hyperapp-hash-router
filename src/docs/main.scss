@@ -1,0 +1,12 @@
+@import "../../node_modules/bulma/sass/utilities/initial-variables";
+@import "../../node_modules/bulma/sass/utilities/functions";
+
+$primary: rgb(36, 96, 193);
+$menu-item-active-background-color: $primary;
+
+@import "../../node_modules/bulma/bulma";
+
+.navbar-brand {
+  font-family: 'Baloo Tamma', cursive;
+  font-size: 1.5em;
+}
