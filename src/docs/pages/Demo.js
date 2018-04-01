@@ -13,6 +13,9 @@ function Topic({ match }) {
 export default function Home({ match }) {
   return (
     <div class="content">
+      <a href="https://github.com/yuku-t/hyperapp-hash-router/tree/master/src/docs">
+        Source
+      </a>
       <section class="box">
         <h1>Child routes</h1>
         <p>Please select a topic.</p>
