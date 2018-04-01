@@ -17,7 +17,7 @@ npm install --save hyperapp-hash-router
 
 ### Distribution files
 - **dist/index.js** - The CommonJS version of this package. (default)
-- **dist/index.mjs** - The ES Modules version of this package.
+- **src/index.js** - The ES Modules version of this package.
 - **dist/hyperapp-hash-router.js**, **dist/hyperapp-hash-router.min.js** - The UMD version of this package. This version exports itself to `window.hyperappHashRouter`.
 
 ### Usage

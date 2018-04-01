@@ -48,7 +48,7 @@ export default function Readme() {
           (default)
         </li>
         <li>
-          <strong>dist/index.mjs</strong> - The ES Modules version of this
+          <strong>src/index.js</strong> - The ES Modules version of this
           package.
         </li>
         <li>
