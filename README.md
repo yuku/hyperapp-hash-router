@@ -1,5 +1,8 @@
 # hyperapp-hash-router
 
+[![NPM version](http://img.shields.io/npm/v/hyperapp-hash-router.svg)](https://www.npmjs.com/package/hyperapp-hash-router)
+[![Maintainability](https://api.codeclimate.com/v1/badges/1f1a1bba3e76976e7b6e/maintainability)](https://codeclimate.com/github/yuku-t/hyperapp-hash-router/maintainability)
+
 [@hyperapp/router] compatible router library based on `location.hash`.
 
 [Demo](https://yuku-t.com/hyperapp-hash-router/#/demo)

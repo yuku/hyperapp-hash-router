@@ -8,6 +8,20 @@ export default function Readme() {
     <div class="content">
       <h1 id="hyperapp-hash-router">hyperapp-hash-router</h1>
       <p>
+        <a href="https://www.npmjs.com/package/hyperapp-hash-router">
+          <img
+            src="http://img.shields.io/npm/v/hyperapp-hash-router.svg"
+            alt="NPM version"
+          />{" "}
+        </a>
+        <a href="https://codeclimate.com/github/yuku-t/hyperapp-hash-router/maintainability">
+          <img
+            src="https://api.codeclimate.com/v1/badges/1f1a1bba3e76976e7b6e/maintainability"
+            alt="Maintainability"
+          />{" "}
+        </a>
+      </p>
+      <p>
         <a href="https://www.npmjs.com/package/@hyperapp/router">
           @hyperapp/router
         </a>{" "}
